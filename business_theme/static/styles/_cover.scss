@@ -23,15 +23,16 @@
     .container {
         width: 100%;
         .logo {
-            // font-family: "D3 Euronism", sans-serif;
-            font-size: 24pt;
+            font-family: "Dungeons Dragons", sans-serif;
+            font-size: 80pt;
             color: $white;
-            width: 200px;
-            height: 45px;
+            width: 80px;
+            height: 90px;
             position: absolute;
             text-align: right;
+            font-weight: bold;
             top: 40pt;
-            right: 20pt;
+            right: 50pt;
             p {
                 margin: auto;
             }
@@ -108,4 +109,45 @@
             }
         }
     }
+}
+
+
+#cover2 {
+    page: no-chapter;
+
+    h1 {
+        color: $primary;
+        font-size: 65pt;
+        line-height: 1.5;
+        margin: 2cm 6cm 0 0;
+        page: no-chapter;
+        width: 100%;
+    }
+
+    .subtitle-cover, .author {
+        margin-top: 5em;
+        font-size: 15pt;
+    }
+
+    .author {
+        font-weight: 500;
+    }
+
+    .logo {
+      font-family: "Dungeons Dragons", sans-serif;
+      font-size: 80pt;
+      font-weight: bold;
+      color: $primary;
+      // width: 300px;
+      height: 80px;
+      position: absolute;
+      text-align: left;
+      bottom: 40pt;
+      left: 0;
+
+      p {
+        margin: auto;
+      }
+    }
+    page-break-after: always;
 }

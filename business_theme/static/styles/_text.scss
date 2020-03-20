@@ -1,3 +1,4 @@
+@import "variables";
 
 .badge {
     display: inline-block;
@@ -20,12 +21,12 @@
 }
 
 a {
-    color: #083764;
+    color: $primary;
     text-decoration: none;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-    color: #0056b3 !important;
+    color: $primary !important;
 }
 
 .text-secondary {
@@ -156,7 +157,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 a.download {
     code.download.literal.notranslate {
-        color: #083764;
+        color: $primary;
         background-color: transparent;
         font-family: inherit;
 

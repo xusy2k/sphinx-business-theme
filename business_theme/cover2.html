@@ -1,0 +1,24 @@
+<article id="cover2" class="dont-break">
+    <div class="container">
+
+        <!-- Cover middle -->
+        <div class="cover-middle">
+            <div class="title">
+                <h1 class="title-cover">{{ project|striptags|e }}</h1>
+                <p class="subtitle-cover">
+                    {{ description|default('Youtuber y buscador de La Verdad para Cultos Innombrables, del sistema Hitos') }}
+                </p>
+                <p class="author">
+                    {{ author }}
+                </p>
+                <p>
+                    Publicado el día {{ last_updated }}
+                </p>
+            </div>
+        </div>
+
+        <div class="logo">
+            <p>⛧</p>
+        </div>
+    </div>
+</article>
